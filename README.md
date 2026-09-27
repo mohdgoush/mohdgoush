@@ -82,31 +82,56 @@
 
 ---
 
-## 👨‍💻 Engineering Identity
+<div align="center">
 
-```python
-class MohdGoush:
-    def __init__(self):
-        self.role        = "AI & Agentic Automation Intern @ PanScience Innovations"
-        self.academics   = "B.Tech ECE @ IET Lucknow (2023 - 2027) · CGPA: 9.11 / 10"
-        self.location    = "Lucknow, Uttar Pradesh, India 🇮🇳"
-        self.core_stack  = ["LangGraph", "FastAPI", "PostgreSQL (pgvector)", "Docker", "Kubernetes (AKS)"]
-        self.specialties = ["Production-Grade RAG", "Multi-Agent Orchestration", "MLOps & LLM Observability"]
-        self.dsa_profile = "LeetCode Knight (Peak Rating: 1932) · CodeChef 3★ (Peak: 1648)"
-        self.current_ops = "Migrating enterprise AI workloads from AWS EC2 ➜ Azure Kubernetes Service (AKS)"
-        self.open_to     = ["AI Engineering Roles", "Agentic Systems Research", "High-Impact Internships"]
+<!-- Mac-Style Terminal Window with Dynamic Syntax Highlighting -->
+<img src="./assets/terminal.svg" width="100%" alt="Mohd Goush - Engineering Identity Terminal"/>
 
-    def build_system(self):
-        return {
-            "reliability": "Evaluation-driven (RAGAS + LangSmith)",
-            "scalability": "Containerized microservices on Kubernetes (AKS)",
-            "observability": "Prometheus metrics + Loki logs + Grafana dashboards"
-        }
-```
+<br/><br/>
 
-- 🔭 **Philosophy**: *Make AI deterministic, observable, and evaluation-driven.* I specialize in mitigating hallucinations and building resilient agent loops.
-- ⚙️ **End-to-End Delivery**: I don't just prompt models — I architect the entire lifecycle: vector indexing, re-ranking, API gateways, container orchestration, and telemetry dashboards.
-- 🧩 **Algorithmic Rigor**: Solved **570+ data structures & algorithms problems**, bringing mathematical precision and optimal time/space complexity to AI engineering.
+<!-- Interactive 3-Card Engineering Principles Matrix -->
+<table width="100%">
+  <tr>
+    <td width="33.3%" valign="top">
+      <div align="center">
+        <h3>🧠 Deterministic AI</h3>
+        <sub>Zero-tolerance for hallucinations</sub>
+      </div>
+      <br/>
+      <ul>
+        <li><b>Evaluation-Driven</b>: Automated RAGAS benchmarks for precision &amp; recall.</li>
+        <li><b>Hybrid Retrieval</b>: Blending dense semantic embeddings with sparse BM25.</li>
+        <li><b>Cross-Encoder</b>: Re-ranking to maximize contextual relevancy.</li>
+      </ul>
+    </td>
+    <td width="33.3%" valign="top">
+      <div align="center">
+        <h3>⚙️ Cloud &amp; MLOps</h3>
+        <sub>Scale from local to AKS cluster</sub>
+      </div>
+      <br/>
+      <ul>
+        <li><b>Kubernetes (AKS)</b>: Production containerized orchestration.</li>
+        <li><b>Full Observability</b>: Prometheus scrapers &amp; Loki log stream.</li>
+        <li><b>Grafana Telemetry</b>: Real-time latency, token usage, and error metrics.</li>
+      </ul>
+    </td>
+    <td width="33.3%" valign="top">
+      <div align="center">
+        <h3>🥋 Algorithmic Rigor</h3>
+        <sub>570+ DSA problems solved</sub>
+      </div>
+      <br/>
+      <ul>
+        <li><b>LeetCode Knight</b>: Peak rating <b>1932</b> (Top 3.8% globally).</li>
+        <li><b>CodeChef 3★</b>: Peak contest rating <b>1648</b>.</li>
+        <li><b>Optimal Complexity</b>: High mathematical rigor applied to compute.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 

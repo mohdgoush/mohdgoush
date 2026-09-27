@@ -1,0 +1,76 @@
+<svg fill="none" viewBox="0 0 1000 430" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="term-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0d1527" />
+      <stop offset="100%" stop-color="#090e1a" />
+    </linearGradient>
+
+    <linearGradient id="term-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D9FF" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#00D9FF" />
+    </linearGradient>
+
+    <filter id="card-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#00D9FF" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <style>
+    .code-text {
+      font-family: 'Fira Code', 'Cascadia Code', Menlo, Monaco, 'Courier New', monospace;
+      font-size: 13.5px;
+      line-height: 22px;
+    }
+    .kw { fill: #ff7b72; font-weight: 600; }
+    .fn { fill: #d2a8ff; font-weight: 600; }
+    .cls { fill: #ffa657; font-weight: bold; }
+    .self { fill: #79c0ff; }
+    .prop { fill: #00D9FF; }
+    .str { fill: #a5d6ff; }
+    .punct { fill: #8b949e; }
+    .comment { fill: #8b949e; font-style: italic; }
+    .cursor { fill: #00D9FF; }
+  </style>
+
+  <!-- Terminal Window Container -->
+  <rect width="1000" height="430" rx="14" fill="url(#term-bg)" stroke="#1e293b" stroke-width="1.5" filter="url(#card-glow)" />
+
+  <!-- Window Header Bar -->
+  <rect width="1000" height="38" rx="14" fill="#0f172a" />
+  <rect y="24" width="1000" height="14" fill="#0f172a" />
+  <line x1="0" y1="38" x2="1000" y2="38" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Mac Window Buttons -->
+  <circle cx="24" cy="19" r="6" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5" />
+  <circle cx="44" cy="19" r="6" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5" />
+  <circle cx="64" cy="19" r="6" fill="#27c93f" stroke="#1aab29" stroke-width="0.5" />
+
+  <!-- Terminal Title -->
+  <text x="500" y="24" font-family="'Fira Code', monospace" font-size="12" fill="#94a3b8" text-anchor="middle" font-weight="500">
+    ⚡ mohdgoush@ai-core: ~/systems $ python -m identity
+  </text>
+
+  <!-- Code Body -->
+  <g transform="translate(32, 68)" class="code-text">
+    <text y="0"><tspan class="kw">class</tspan> <tspan class="cls">MohdGoush</tspan><tspan class="punct">:</tspan></text>
+    
+    <text y="24"><tspan dx="20" class="kw">def</tspan> <tspan class="fn">__init__</tspan><tspan class="punct">(</tspan><tspan class="self">self</tspan><tspan class="punct">):</tspan></text>
+    
+    <text y="48"><tspan dx="40" class="self">self</tspan><tspan class="punct">.</tspan><tspan class="prop">role</tspan> <tspan class="punct">=</tspan> <tspan class="str">"AI &amp; Agentic Automation Intern @ PanScience Innovations"</tspan></text>
+    <text y="72"><tspan dx="40" class="self">self</tspan><tspan class="punct">.</tspan><tspan class="prop">academics</tspan> <tspan class="punct">=</tspan> <tspan class="str">"B.Tech ECE @ IET Lucknow (2023 - 2027) · CGPA: 9.11 / 10"</tspan></text>
+    <text y="96"><tspan dx="40" class="self">self</tspan><tspan class="punct">.</tspan><tspan class="prop">location</tspan> <tspan class="punct">=</tspan> <tspan class="str">"Lucknow, Uttar Pradesh, India 🇮🇳"</tspan></text>
+    <text y="120"><tspan dx="40" class="self">self</tspan><tspan class="punct">.</tspan><tspan class="prop">specialties</tspan> <tspan class="punct">=</tspan> <tspan class="punct">[</tspan><tspan class="str">"Multi-Agent Orchestration"</tspan><tspan class="punct">, </tspan><tspan class="str">"Production RAG"</tspan><tspan class="punct">, </tspan><tspan class="str">"Observability (MLOps)"</tspan><tspan class="punct">]</tspan></text>
+    <text y="144"><tspan dx="40" class="self">self</tspan><tspan class="punct">.</tspan><tspan class="prop">dsa_rigor</tspan> <tspan class="punct">=</tspan> <tspan class="str">"LeetCode Knight (Peak: 1932 · Top 3.8%) · CodeChef 3★ (1648)"</tspan></text>
+    <text y="168"><tspan dx="40" class="self">self</tspan><tspan class="punct">.</tspan><tspan class="prop">current_ops</tspan> <tspan class="punct">=</tspan> <tspan class="str">"Migrating AI Stacks from AWS EC2 ➜ Azure Kubernetes Service (AKS)"</tspan></text>
+    <text y="192"><tspan dx="40" class="self">self</tspan><tspan class="punct">.</tspan><tspan class="prop">mission</tspan> <tspan class="punct">=</tspan> <tspan class="str">"Build evaluation-first, deterministic AI systems that never hallucinate."</tspan></text>
+
+    <text y="230"><tspan dx="20" class="kw">def</tspan> <tspan class="fn">architect_system</tspan><tspan class="punct">(</tspan><tspan class="self">self</tspan><tspan class="punct">) -&gt; </tspan><tspan class="cls">dict</tspan><tspan class="punct">:</tspan></text>
+    <text y="254"><tspan dx="40" class="kw">return</tspan> <tspan class="punct">{</tspan></text>
+    <text y="278"><tspan dx="60" class="prop">"reliability"</tspan><tspan class="punct">: </tspan><tspan class="str">"Evaluation-driven (RAGAS + LangSmith Tracing)"</tspan><tspan class="punct">,</tspan></text>
+    <text y="302"><tspan dx="60" class="prop">"scalability"</tspan><tspan class="punct">: </tspan><tspan class="str">"Containerized microservices on Kubernetes (AKS)"</tspan><tspan class="punct">,</tspan></text>
+    <text y="326"><tspan dx="60" class="prop">"telemetry"</tspan><tspan class="punct">:   </tspan><tspan class="str">"Prometheus Metrics + Promtail/Loki Logs + Grafana"</span></text>
+    <text y="350"><tspan dx="40" class="punct">}</tspan></text>
+  </g>
+</svg>

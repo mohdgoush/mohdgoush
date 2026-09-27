@@ -4,12 +4,12 @@
 
 <div align="center">
 
-<!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,35:0f2027,70:203a43,100:00d9ff&height=230&section=header&text=Mohd%20Goush&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=AI%20%26%20Agentic%20Systems%20Engineer%20%7C%20MLOps%20%26%20Cloud&descSize=20&descAlignY=58&animation=fadeIn" width="100%" alt="Header Banner"/>
+<!-- Local Ultra-HD Vector Banner (100% Zero-Downtime Guarantee) -->
+<img src="./assets/header.svg" width="100%" alt="Mohd Goush - AI & Agentic Systems Engineer"/>
 
 <!-- Dynamic Animated Typing SVG -->
 <a href="https://github.com/mohdgoush">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=780&lines=Building+Production-Grade+RAG+%26+Multi-Agent+Systems+%F0%9F%A4%96;Orchestrating+LangGraph+%2B+pgvector+%2B+Groq+Pipelines+%E2%9A%A1;Architecting+Cloud+MLOps%3A+Azure+AKS+%2B+Prometheus+%2B+Grafana+%E2%98%81%EF%B8%8F;LeetCode+Knight+%F0%9F%9B%A1%EF%B8%8F+(Peak+1915)+%7C+500%2B+DSA+Problems+Solved;B.Tech+ECE+%40+IET+Lucknow+%7C+CGPA+9.11+%2F+10+%F0%9F%8E%93" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=780&lines=Building+Production-Grade+RAG+%26+Multi-Agent+Systems+%F0%9F%A4%96;Orchestrating+LangGraph+%2B+pgvector+%2B+Groq+Pipelines+%E2%9A%A1;Architecting+Cloud+MLOps%3A+Azure+AKS+%2B+Prometheus+%2B+Grafana+%E2%98%81%EF%B8%8F;LeetCode+Knight+%F0%9F%9B%A1%EF%B8%8F+(Peak+1932)+%7C+570%2B+DSA+Problems+Solved;B.Tech+ECE+%40+IET+Lucknow+%7C+CGPA+9.11+%2F+10+%F0%9F%8E%93" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -63,8 +63,8 @@
     </td>
     <td align="center" width="25%">
       <b>🛡️ Competitive Programming</b><br/>
-      <b>LeetCode Knight (1915)</b><br/>
-      <sub>CodeChef 3★ (1648) · 500+ Solved</sub>
+      <b>LeetCode Knight (1932)</b><br/>
+      <sub>CodeChef 3★ (1648) · 570+ Solved</sub>
     </td>
     <td align="center" width="25%">
       <b>🤖 Core Specialization</b><br/>
@@ -92,7 +92,7 @@ class MohdGoush:
         self.location    = "Lucknow, Uttar Pradesh, India 🇮🇳"
         self.core_stack  = ["LangGraph", "FastAPI", "PostgreSQL (pgvector)", "Docker", "Kubernetes (AKS)"]
         self.specialties = ["Production-Grade RAG", "Multi-Agent Orchestration", "MLOps & LLM Observability"]
-        self.dsa_profile = "LeetCode Knight (Peak Rating: 1915) · CodeChef 3★ (Peak: 1648)"
+        self.dsa_profile = "LeetCode Knight (Peak Rating: 1932) · CodeChef 3★ (Peak: 1648)"
         self.current_ops = "Migrating enterprise AI workloads from AWS EC2 ➜ Azure Kubernetes Service (AKS)"
         self.open_to     = ["AI Engineering Roles", "Agentic Systems Research", "High-Impact Internships"]
 
@@ -106,7 +106,7 @@ class MohdGoush:
 
 - 🔭 **Philosophy**: *Make AI deterministic, observable, and evaluation-driven.* I specialize in mitigating hallucinations and building resilient agent loops.
 - ⚙️ **End-to-End Delivery**: I don't just prompt models — I architect the entire lifecycle: vector indexing, re-ranking, API gateways, container orchestration, and telemetry dashboards.
-- 🧩 **Algorithmic Rigor**: Solved **500+ data structures & algorithms problems**, bringing mathematical precision and optimal time/space complexity to AI engineering.
+- 🧩 **Algorithmic Rigor**: Solved **570+ data structures & algorithms problems**, bringing mathematical precision and optimal time/space complexity to AI engineering.
 
 ---
 
@@ -297,22 +297,19 @@ class MohdGoush:
     </td>
     <td align="center" width="50%" valign="middle">
       <a href="https://github.com/mohdgoush" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api?username=mohdgoush&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&count_private=true" alt="GitHub Stats" width="100%"/>
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=mohdgoush&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&count_private=true" alt="GitHub Stats" width="100%"/>
       </a>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%" valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohdgoush&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D9FF&text_color=c9d1d9&langs_count=8" alt="Top Languages" width="100%"/>
+      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=mohdgoush&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D9FF&text_color=c9d1d9&langs_count=8" alt="Top Languages" width="100%"/>
     </td>
     <td align="center" width="50%" valign="middle">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohdgoush&theme=tokyonight&hide_border=true&background=0d1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak" width="100%"/>
+      <img src="https://streak-stats.demolab.com/?user=mohdgoush&theme=tokyonight&hide_border=true&background=0d1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak" width="100%"/>
     </td>
   </tr>
 </table>
-
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mohdgoush&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00D9FF&line=00D9FF&point=FFFFFF" alt="Activity Graph" width="100%"/>
 
 </div>
 
@@ -332,7 +329,7 @@ class MohdGoush:
 
 ## 🏆 Honors & Certifications
 
-- 🛡️ **LeetCode Knight** — Peak Contest Rating **1915** (Top ~3% globally, 500+ problems solved)
+- 🛡️ **LeetCode Knight** — Peak Contest Rating **1932** (Top ~3.8% globally, 570+ problems solved)
 - ⭐ **CodeChef 3-Star** — Peak Contest Rating **1648**
 - 📜 **IBM Generative AI Applications Specialization** — Coursera
 - 📜 **Microsoft AI & Machine Learning Foundations** — Microsoft
@@ -367,8 +364,7 @@ I am actively open to discussing **Agentic AI systems, Production RAG architectu
 
 <br/><br/>
 
-> *"Make it work, make it deterministic, make it measurable."* ⚡
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d9ff,35:203a43,70:0f2027,100:090d16&height=120&section=footer" width="100%" alt="Footer Banner"/>
+<!-- Local Vector Footer Banner -->
+<img src="./assets/footer.svg" width="100%" alt="Mohd Goush Footer"/>
 
 </div>

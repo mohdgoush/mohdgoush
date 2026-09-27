@@ -85,7 +85,7 @@
 <div align="center">
 
 <!-- Mac-Style Terminal Window with Dynamic Syntax Highlighting -->
-<img src="https://raw.githubusercontent.com/mohdgoush/mohdgoush/main/assets/terminal.svg" width="100%" alt="Mohd Goush - Engineering Identity Terminal"/>
+<img src="https://raw.githubusercontent.com/mohdgoush/mohdgoush/main/assets/terminal.svg?v=2" width="100%" alt="Mohd Goush - Engineering Identity Terminal"/>
 
 <br/><br/>
 

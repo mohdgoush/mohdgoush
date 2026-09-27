@@ -112,31 +112,52 @@ class MohdGoush:
 
 ## 🏗️ Production Agentic Architecture
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                          PRODUCTION MULTI-AGENT & RAG PIPELINE                         │
-│                                                                                        │
-│   [ Client Query ] ──► [ FastAPI Gateway / Rate Limiter ]                              │
-│                                      │                                                 │
-│                                      ▼                                                 │
-│                        [ LangGraph Supervisor Agent ]                                  │
-│                                      │                                                 │
-│              ┌───────────────────────┴───────────────────────┐                         │
-│              ▼                                               ▼                         │
-│   [ Hybrid Retrieval RAG ]                     [ Specialized Tool Agents ]             │
-│    • Dense: BGE / OpenAI Embeddings             • OCR & Parsing (PaddleOCR)            │
-│    • Sparse: BM25 Keyword Search                • Code Review & Analysis               │
-│    • Re-Ranking: Cross-Encoder (RRF)            • Human-in-the-Loop (HITL) Gate        │
-│              │                                               │                         │
-│              └───────────────────────┬───────────────────────┘                         │
-│                                      ▼                                                 │
-│                        [ LLM Synthesis (Groq / Llama-3) ]                              │
-│                                      │                                                 │
-│                                      ▼                                                 │
-│                 [ Automated Evaluation & Observability ]                               │
-│        • RAGAS Metrics: Faithfulness (98%) · Context Precision (93%)                   │
-│        • Telemetry: Prometheus Metrics + Loki Log Stream + Grafana Dashboards          │
-└────────────────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    classDef client fill:#0B132B,stroke:#00D9FF,stroke-width:2px,color:#FFFFFF;
+    classDef gateway fill:#1C2541,stroke:#3A86FF,stroke-width:2px,color:#FFFFFF;
+    classDef supervisor fill:#240046,stroke:#8A2BE2,stroke-width:2.5px,color:#FFFFFF;
+    classDef agent fill:#0A2540,stroke:#00D9FF,stroke-width:1.5px,color:#E2E8F0;
+    classDef tool fill:#14281D,stroke:#00E676,stroke-width:1.5px,color:#E2E8F0;
+    classDef synthesis fill:#3A0CA3,stroke:#4CC9F0,stroke-width:2px,color:#FFFFFF;
+    classDef eval fill:#2B193D,stroke:#F72585,stroke-width:2px,color:#FFFFFF;
+    classDef obs fill:#0D1117,stroke:#FFB703,stroke-width:2px,color:#FFFFFF;
+
+    Client["👤 Client / API User"]:::client
+    Gateway["⚡ FastAPI Gateway & Rate Limiter"]:::gateway
+    Supervisor{"🧠 LangGraph Supervisor Agent"}:::supervisor
+
+    subgraph RAG_System [" 🔍 Hybrid Retrieval RAG Engine "]
+        Dense["Dense: BGE & OpenAI Vector Embeddings"]:::agent
+        Sparse["Sparse: BM25 Keyword Search"]:::agent
+        Rerank["Cross-Encoder Re-Ranking (RRF)"]:::agent
+    end
+
+    subgraph Tool_Agents [" 🛠️ Specialized Sub-Agents "]
+        OCR["PaddleOCR Clinical Parsing"]:::tool
+        CodeReview["Verilog & HDL Code Reviewer"]:::tool
+        HITL["Human-in-the-Loop (HITL) Gate"]:::tool
+    end
+
+    Synthesis["⚡ LLM Synthesis Engine (Groq Llama-3.3-70B)"]:::synthesis
+
+    subgraph MLOps_Pipeline [" 📊 Automated Evaluation & Observability "]
+        RAGAS["RAGAS Evaluation: 98% Faithfulness · 93% Precision"]:::eval
+        Telemetry["Azure AKS Telemetry: Prometheus + Loki + Grafana"]:::obs
+    end
+
+    Client -->|REST / Stream| Gateway
+    Gateway --> Supervisor
+
+    Supervisor -->|Vector Semantic Route| Dense & Sparse
+    Dense & Sparse --> Rerank
+    Rerank --> Synthesis
+
+    Supervisor -->|Sub-Task Delegation| OCR & CodeReview & HITL
+    OCR & CodeReview & HITL --> Synthesis
+
+    Synthesis --> RAGAS
+    RAGAS --> Telemetry
 ```
 
 ---

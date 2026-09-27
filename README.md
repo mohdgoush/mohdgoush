@@ -5,7 +5,7 @@
 <div align="center">
 
 <!-- Local Ultra-HD Vector Banner (100% Zero-Downtime Guarantee) -->
-<img src="./assets/header.svg" width="100%" alt="Mohd Goush - AI & Agentic Systems Engineer"/>
+<img src="https://raw.githubusercontent.com/mohdgoush/mohdgoush/main/assets/header.svg" width="100%" alt="Mohd Goush - AI & Agentic Systems Engineer"/>
 
 <!-- Dynamic Animated Typing SVG -->
 <a href="https://github.com/mohdgoush">
@@ -85,7 +85,7 @@
 <div align="center">
 
 <!-- Mac-Style Terminal Window with Dynamic Syntax Highlighting -->
-<img src="./assets/terminal.svg" width="100%" alt="Mohd Goush - Engineering Identity Terminal"/>
+<img src="https://raw.githubusercontent.com/mohdgoush/mohdgoush/main/assets/terminal.svg" width="100%" alt="Mohd Goush - Engineering Identity Terminal"/>
 
 <br/><br/>
 
@@ -411,6 +411,6 @@ I am actively open to discussing **Agentic AI systems, Production RAG architectu
 <br/><br/>
 
 <!-- Local Vector Footer Banner -->
-<img src="./assets/footer.svg" width="100%" alt="Mohd Goush Footer"/>
+<img src="https://raw.githubusercontent.com/mohdgoush/mohdgoush/main/assets/footer.svg" width="100%" alt="Mohd Goush Footer"/>
 
 </div>

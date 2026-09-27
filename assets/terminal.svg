@@ -70,7 +70,7 @@
     <text y="254"><tspan dx="40" class="kw">return</tspan> <tspan class="punct">{</tspan></text>
     <text y="278"><tspan dx="60" class="prop">"reliability"</tspan><tspan class="punct">: </tspan><tspan class="str">"Evaluation-driven (RAGAS + LangSmith Tracing)"</tspan><tspan class="punct">,</tspan></text>
     <text y="302"><tspan dx="60" class="prop">"scalability"</tspan><tspan class="punct">: </tspan><tspan class="str">"Containerized microservices on Kubernetes (AKS)"</tspan><tspan class="punct">,</tspan></text>
-    <text y="326"><tspan dx="60" class="prop">"telemetry"</tspan><tspan class="punct">:   </tspan><tspan class="str">"Prometheus Metrics + Promtail/Loki Logs + Grafana"</span></text>
+    <text y="326"><tspan dx="60" class="prop">"telemetry"</tspan><tspan class="punct">:   </tspan><tspan class="str">"Prometheus Metrics + Promtail/Loki Logs + Grafana"</tspan></text>
     <text y="350"><tspan dx="40" class="punct">}</tspan></text>
   </g>
 </svg>

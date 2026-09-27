@@ -82,12 +82,9 @@
 
 ---
 
+## 👨‍💻 Engineering Identity & Core Principles
+
 <div align="center">
-
-<!-- Mac-Style Terminal Window with Dynamic Syntax Highlighting -->
-<img src="https://raw.githubusercontent.com/mohdgoush/mohdgoush/main/assets/terminal.svg?v=2" width="100%" alt="Mohd Goush - Engineering Identity Terminal"/>
-
-<br/><br/>
 
 <!-- Interactive 3-Card Engineering Principles Matrix -->
 <table width="100%">
